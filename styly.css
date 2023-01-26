@@ -1,0 +1,34 @@
+.flex-wrapper {
+    width: 100%;
+    height: 200px;
+    background: green;
+justify-content: space-between;
+align-items: center;
+    display: flex;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-size: 40px;
+}
+.flex-item {
+    padding: 20px;
+    margin: 10px;
+    background: orange;
+}
+.buttons {
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.text {
+    flex-grow: 1;
+}
